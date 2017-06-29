@@ -5,5 +5,12 @@
 ## 缘起
 看到了这篇[使用 Keyclock 轻松保护 Spring Boot 应用程序](https://www.oschina.net/translate/easily-secure-your-spring-boot-applications-with-k?lang=chs&page=1#)，于是想动手实践体验下。
 
+To start the app from the command line:
+```
+
+mvn clean spring-boot:run
+
+```
+
 # Part 1 - Create a Spring Boot app and Keycloak support
 This is on [Master branch](https://github.com/elegance/spring-keycloak/tree/master)
