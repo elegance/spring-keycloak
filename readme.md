@@ -13,4 +13,7 @@ mvn clean spring-boot:run
 ```
 
 # Part 1 - Create a Spring Boot app and Keycloak support
-This is on [Master branch](https://github.com/elegance/spring-keycloak/tree/master)
+This is on the [Master branch](https://github.com/elegance/spring-keycloak/tree/master)
+
+# Part 2 - Add Spring Security support
+This is on the [spring-securit branch](https://github.com/elegance/spring-keycloak/tree/spring-security)
