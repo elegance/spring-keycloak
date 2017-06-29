@@ -1,5 +1,7 @@
 package org.orh.springkeycloak;
 
+import java.security.Principal;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 
@@ -14,7 +16,8 @@ public class ProductController {
     ProductService productService;
 
     @GetMapping(path = "/products")
-    public String getProducts(Model model) {
+    public String getProducts(Principal principal, Model model) {
+        model.addAttribute("principal", principal);
         model.addAttribute("products", productService.getProducts());
         return "products";
     }
